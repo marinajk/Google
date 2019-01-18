@@ -82,8 +82,6 @@
     }
     .india
     {
-        border-color:rgba(0,0,0,.54)
-        border-top: solid 1px;
         background-color: #f2f2f2;
         font-family: arial,sans-serif;
         color: #757575;
@@ -96,12 +94,13 @@
         padding-bottom: 0px;
         margin-bottom: 0px;
         margin-top:0px;
-        
+        border:1px;
         text-decoration: none;
       
     }
     .last
     {
+        bottom: 8px;
         background-color: #f2f2f2;
         font-family: arial,sans-serif;
         color: #757575;
