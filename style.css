@@ -1,0 +1,193 @@
+    div{ margin-right:0px; margin-top:12px;margin-bottom:12px}
+
+    .topright 
+    {
+         position: absolute;
+         right: 16px;
+        font-size: 13px;
+    }
+    .images
+    {
+        color:black;text-decoration: none;margin-right: 17px;
+    }
+    .gmail
+    {
+        color:black;text-decoration: none;margin-right: 10px;
+    }   
+    .para
+    {
+        text-decoration: none;
+        margin-right:17px;
+    }
+    .google
+    {
+        padding-top:190px;
+    }
+    .button1
+    {  
+    
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 2px;
+        width: 70px;
+        text-decoration: none;
+       
+        height: 30px;background-color:rgb(65, 114, 219); border:rgb(65, 114, 219) ; color:white; 
+    }
+    body
+    {
+    font-family: arial,sans-serif;
+    font-size: small;
+    
+    }
+    .searchbutton
+    {
+        height: 36px;
+        line-height: 27px;
+        width: 150px;
+        background-color:#f2f2f2;
+        border-radius: 2px;
+        color: #757575;
+        font-family: arial,sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 11px 4px;
+        min-width: 54px;
+        padding: 0 16px;
+        text-align: center;
+        border: 1px solid #f2f2f2;
+        }
+    .searchout
+    {
+        
+        background-color:transparent;
+        border-radius: 2px;
+        box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
+        align-self: center;
+        height: 44px;
+        width: 484px;
+        border-inline-start-width: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-right-width: 0px; 
+    }
+    .voice1
+    {
+        padding: 0px 8px;
+        align-items:center;
+        padding-top:0px; padding-left: 5px;
+        margin-top:5px;
+        line-height: 44px;
+        cursor:pointer;
+    }
+    .india
+    {
+        border-color:rgba(0,0,0,.54)
+        border-top: solid 1px;
+        background-color: #f2f2f2;
+        font-family: arial,sans-serif;
+        color: #757575;
+        font-size: 15px;
+        line-height: 40px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding: 18px;
+        padding-top:3px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top:0px;
+        
+        text-decoration: none;
+      
+    }
+    .last
+    {
+        background-color: #f2f2f2;
+        font-family: arial,sans-serif;
+        color: #757575;
+        font-size: small;
+        line-height: 40px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding: 13px;
+        padding-top:3px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top:0px;
+        padding-left: 0px;
+       border-top-color: #757575;
+       border-top-width: 1px;
+        text-decoration: none;
+        border:1px;
+    }
+    
+.bottomright
+{
+  position: absolute;
+    bottom: 8px;
+    right: 150px;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    color: #757575;
+    font-size: small;
+    line-height: 40px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right:18px;
+    padding-top:3px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-left: 0px;
+   border-top-color: #757575;
+   border-top-width: 1px;
+    text-decoration: none;
+    
+}
+.bottomright1
+{
+    position: absolute;
+    bottom: 8px;
+    right:80px;
+    padding-right:20px;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    color: #757575;
+    font-size: small;
+    line-height: 40px;
+    padding-left: 0px;
+    margin-left: 0px;
+   
+    padding-top:3px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-left: 0px;
+   border-top-color: #757575;
+   border-top-width: 1px;
+    text-decoration: none;
+    border:1px; 
+}
+.bottomright2
+{
+    position: absolute;
+    bottom:8px;
+    right:25px;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    color: #757575;
+    font-size: small;
+    line-height: 40px;
+    padding-left: 0px;
+    margin-left: 0px;
+   
+    padding-top:3px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-left: 0px;
+   border-top-color: #757575;
+   border-top-width: 1px;
+    text-decoration: none;
+    border:1px; 
+}

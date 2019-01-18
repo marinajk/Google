@@ -1,0 +1,6 @@
+<script>
+    function onload
+    {
+        
+    }
+</script>
