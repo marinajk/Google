@@ -174,7 +174,7 @@
 {
     border-top-color: #757575;
     border-top-style: inset;
-        border:1px;
+    border:1px;
     position: absolute;
     bottom: 14px;
     right:80px;
@@ -221,4 +221,11 @@
   
     text-decoration: none;
     
+}
+.down
+{
+    position: absolute;
+    bottom:0px;
+    margin-bottom:-15px;
+    width: 100%;
 }
