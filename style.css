@@ -1,24 +1,36 @@
-    div{ margin-right:0px; margin-top:6px;margin-bottom:12px}
+    
 
     .topright 
     {
+        font-size:13px;
+        font-family:Arial, Helvetica, sans-serif;
+        padding: 0 14px;
          position: absolute;
          right: 16px;
         font-size: 13px;
+        margin-right:0px; 
+    margin-top:15px;
+    margin-bottom:12px;
     }
     .images
     {
-        color:black;text-decoration: none;margin-right: 50px;
+        color:black;
+        text-decoration: none;
+        margin-right: 57px;
+    
+
     }
     .gmail
     {
-        color:black;text-decoration: none;margin-right: 10px;
+        color:black;
+        text-decoration: none;
+        margin-right:11px;
     }   
     .para
     {
         position: absolute;
-        left:108px;
-        top:5px;
+        left:126px;
+        top:7px;
         text-decoration: none;
         margin-right:18px;
     }
@@ -32,10 +44,19 @@
         font-weight: bold;
         font-size: 13px;
         border-radius: 2px;
-        width: 70px;
+        position: relative;
+        top:1px;
+        right: 0px;
+      
+        text-indent: 1px;
+        
+        width: 69px;
         text-decoration: none;
        
-        height: 30px;background-color:rgb(65, 114, 219); border:rgb(65, 114, 219) ; color:white; 
+        height: 30px;
+        background-color:rgb(84, 134, 243); 
+        border: rgb(84, 134, 243); 
+        color:white; 
     }
     body
     {
@@ -67,7 +88,9 @@
         }
     .searchout
     {
-        
+        border-color: #e6e4e4;
+        border-style: none;
+        padding-left:10px;
         background-color:transparent;
         border-radius: 2px;
         box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
@@ -78,12 +101,25 @@
         border-top-width: 0px;
         border-bottom-width: 0px;
         border-right-width: 0px; 
+        box-shadow: 2px 2px 2px 2px #C6E2E3;
+    }
+    .searchout:hover{
+       
+        border-color: white;
+
+    }
+    .searchout:focus
+    {
+        outline: none;
+        border-color: white;
     }
     .voice1
     {
         position: relative ;
       z-index: 5;
       left:-3%;
+      height:"30px";
+      width:"25px";
       top:10px;
       bottom:-20%;
         padding: 0px 8px;
@@ -95,6 +131,7 @@
     }
     .india
     {
+    
         position: relative;
         bottom:16px;
         left:0px;
@@ -102,23 +139,56 @@
         font-family: arial,sans-serif;
         color: #757575;
         font-size: 15px;
-        line-height: 38px;
+        line-height: 40px;
         padding-left: 0px;
         margin-left: 0px;
-        padding: 18px;
-        padding-top:3px;
+        padding: 31px;
+        padding-top:0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         margin-top:0px;
-    
+ 
     border-left: #f2f2f2;
     border-right: #f2f2f2;
     border-bottom: #f2f2f2;
         border-top-color:#e6e4e4;
-        
+        text-decoration: none;
+        border-style: solid;
+        border-width: 1px;     
+    }
+    .india1
+    {
+        position: relative;
+        bottom:16px;
+        left:0px;
+        background-color: #f2f2f2;
+        font-family: arial,sans-serif;
+        color: #757575;
+        font-size: 15px;
+        line-height: 40px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding:18px;
+        padding-top:0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top:0px;
+ 
+    border-left: #f2f2f2;
+    border-right: #f2f2f2;
+    border-bottom: #f2f2f2;
+        border-top-color:#e6e4e4;
         text-decoration: none;
         border-style: solid;
         border-width: 1px;
+       
+      
+        
+       
+        
+       
+      
+
 
     }
     .last
@@ -130,15 +200,58 @@
         font-family: arial,sans-serif;
         color: #757575;
         font-size: small;
-        line-height: 10px;
-        padding-left: 0px;
+        line-height: 40px;
+        padding-left: 13px;
         margin-left: 0px;
         padding: 13px;
-        padding-top:3px;
+        padding-top:0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         margin-top:0px;
-        padding-left: 0px;
+        padding-left: 11px;
+       
+        text-decoration: none;
+    }
+    .last1
+    {
+        bottom: 8px;
+    
+        left:25px;
+        background-color: #f2f2f2;
+        font-family: arial,sans-serif;
+        color: #757575;
+        font-size: small;
+        line-height: 10px;
+        padding-left:3px;
+        margin-left: 0px;
+        
+        padding-top:0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top:0px;
+        padding-left: 11px;
+       
+        text-decoration: none;
+       
+    }
+    .last2
+    {
+        bottom: 8px;
+    
+        left:25px;
+        background-color: #f2f2f2;
+        font-family: arial,sans-serif;
+        color: #757575;
+        font-size: small;
+        line-height: 10px;
+      
+        margin-left: 0px;
+        padding: 13px;
+        padding-top:0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top:0px;
+        padding-left: 6px;
        
         text-decoration: none;
        
@@ -160,7 +273,7 @@
     padding-left: 0px;
     margin-left: 0px;
     padding-right:18px;
-    padding-top:3px;
+    padding-top:0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top:0px;
@@ -187,7 +300,7 @@
     padding-left: 0px;
     margin-left: 0px;
    
-    padding-top:3px;
+    padding-top:0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top:0px;
@@ -213,7 +326,7 @@
     border-top-color: #757575;
     border-top-style: inset;
         border:1px;
-    padding-top:3px;
+    padding-top:0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top:0px;
@@ -228,4 +341,12 @@
     bottom:0px;
     margin-bottom:-15px;
     width: 100%;
+    
+}
+
+.lang
+{
+    padding-right: 8px;
+    text-decoration: none;
+
 }

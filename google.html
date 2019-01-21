@@ -5,13 +5,24 @@
         Google
     </title>
     <link rel="shortcut icon" href="myimages/gg.png" />
-    <script src="myscripts.js"></script>
+    
+    <script>
+    function getfocustxt()
+    {
+        var search=document.getElementById("search").style;
+        search.borderstyle="none";
+        search.borderColor="white";
+      document.getElementById("search").focus();
+
+    }
+</script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body >
+<body onload="getfocustxt();" >
     
     
-    <div class="topright" style="font-size:13px;font-family:Arial, Helvetica, sans-serif;">
+    <div class="topright" >
+        
         <a href="https://www.gmail.com" class="gmail" >Gmail</a>
         <a href="https://www.google.co.in/imghp?hl=en&tab=wi" class="images" >Images</a>
         <a href="" class="para"><img src="myimages/options.png" width="17" height="17"  >
@@ -24,8 +35,8 @@
         <br>
         <br>
         <form action="searchinput">
-            <input type="text" class="searchout" autofocus:"autofocus"; >
-            <img  src="myimages/voice.png" class="voice1" height="30px" width="25px">
+            <input type="text" class="searchout" id="search" onmouseover="getfocustxt();" >
+            <img  src="myimages/voice.png" class="voice1">
             <br>
             <br>
             <input type="button" class="searchbutton" value="Google Search" >
@@ -33,7 +44,15 @@
         </form>
         <center >
             Google offered in: 
-            <a href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwigqN7rj_ffAhUbTo8KHebdDXEQ2ZgBCAc">हिन्दी</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwigqN7rj_ffAhUbTo8KHebdDXEQ2ZgBCAc">हिन्दी</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=bn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCAg">বাংলা</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=te&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCAk">తెలుగు</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=mr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCAo">मराठी</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=ta&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCAs">தமிழ்</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=gu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCAw">ગુજરાતી</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=kn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCA0">ಕನ್ನಡ</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=ml&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCA4">മലയാളം</a>
+            <a class="lang" href="https://www.google.com/setprefs?sig=0_LtzGngf7_wOWmIgAvXaAvsTutdY%3D&amp;hl=pa&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjEybbPlv7fAhVygUsFHRA-D4MQ2ZgBCA8">ਪੰਜਾਬੀ</a>
 
         </center>
                
@@ -46,13 +65,15 @@
 
 <div class="down">
 
-       <div class="india"> 
-        India 
+    <div class="india"> 
+    
+           India
+      
     </div>
-    <div class="india">
+    <div class="india1">
         <a href="" class="last">Advertising</a>
-        <a href="" class="last" >Business</a>
-        <a href="" class="last" >About</a>
+        <a href="" class="last1" >Business</a>
+        <a href="" class="last2" >About</a>
 
         <a href="" class="bottomright" >Privacy</a>
         <a href="" class="bottomright1" >Terms</a>
