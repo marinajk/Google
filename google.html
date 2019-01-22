@@ -1,24 +1,18 @@
+<!doctype html>
 <html>
 
 <head>
     <title>
         Google
     </title>
-    <link rel="shortcut icon" href="myimages/gg.png" />
     
-    <script>
-    function getfocustxt()
-    {
-        var search=document.getElementById("search").style;
-        search.borderstyle="none";
-        search.borderColor="white";
-      document.getElementById("search").focus();
+      <link rel="shortcut icon" href="myimages/gg.png" />
+    
 
-    }
-</script>
-    <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
 </head>
-<body onload="getfocustxt();" >
+<body  >
     
     
     <div class="topright" >
@@ -34,8 +28,8 @@
         <img src="myimages/googlelogo.png" height: 92px width: 272px>
         <br>
         <br>
-        <form action="searchinput">
-            <input type="text" class="searchout" id="search" onmouseover="getfocustxt();" >
+        <form action="searchinput" autocomplete="on">
+            <input type="text"  class="searchout" id="search" onmouseover="getfocustxt();" >
             <img  src="myimages/voice.png" class="voice1">
             <br>
             <br>
