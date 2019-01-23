@@ -1,13 +1,9 @@
-   <script>
-       
+
     function getfocustxt()
     {
- 
-        search=document.getElementById("search").style;
-        search.borderstyle="none";
-        search.borderColor="white";
-      document.getElementById("search").focus();
-
+    document.getElementById("search").focus();
+    search=document.getElementById("search").style;
+    search.borderstyle="none";
+    search.borderColor="white";
     }
     window.onload=getfocustxt;
-</script>
