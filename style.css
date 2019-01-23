@@ -1,6 +1,4 @@
-    
-
-    .topright 
+      .topright 
     {
         font-size:13px;
         font-family:Arial, Helvetica, sans-serif;
@@ -28,6 +26,7 @@
     }   
     .para
     {
+        vertical-align: text-top;
         position: absolute;
         left:126px;
         top:7px;
@@ -105,6 +104,15 @@
         border: 1px solid #f2f2f2;
 
         }
+        .searchbutton1:hover
+    {
+     border: 1px;
+     background-color: rgb(228, 217, 217);
+     border-style: solid;
+     border-color:grey;
+     color:black;
+    }
+
     .searchbutton:hover
     {
      border: 1px;
