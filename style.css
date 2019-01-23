@@ -18,12 +18,20 @@
     
 
     }
+    .images:hover
+    {
+        text-decoration: underline;
+
+    }
     .gmail
     {
         color:black;
         text-decoration: none;
         margin-right:11px;
     }   
+    .gmail:hover{
+        text-decoration: underline;
+    }
     .para
     {
         vertical-align: text-top;
@@ -111,11 +119,14 @@
      border-style: solid;
      border-color:grey;
      color:black;
+     
+     cursor: pointer;
     }
 
     .searchbutton:hover
     {
      border: 1px;
+     cursor: pointer;
      background-color: rgb(228, 217, 217);
      border-style: solid;
      border-color:grey;
@@ -237,7 +248,7 @@
         color: #757575;
         font-size: small;
         line-height: 40px;
-        padding-left: 13px;
+       
         margin-left: 0px;
         padding: 13px;
         padding-top:0px;
@@ -258,7 +269,7 @@
         color: #757575;
         font-size: small;
         line-height: 10px;
-        padding-left:3px;
+      
         margin-left: 0px;
         
         padding-top:0px;
@@ -282,12 +293,12 @@
         line-height: 10px;
       
         margin-left: 0px;
-        padding: 13px;
+      
         padding-top:0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         margin-top:0px;
-        padding-left: 6px;
+        padding-left: 25px;
        
         text-decoration: none;
        
@@ -313,7 +324,7 @@
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top:0px;
-    padding-left: 0px;
+ 
    
 
     text-decoration: none;
@@ -340,7 +351,7 @@
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top:0px;
-    padding-left: 0px;
+
    border-top-color: #757575;
    border-top-width: 1px;
     text-decoration: none;
@@ -366,7 +377,7 @@
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top:0px;
-    padding-left: 0px;
+   
   
     text-decoration: none;
     
@@ -386,3 +397,10 @@
     text-decoration: none;
 
 }
+.lang:hover{
+    text-decoration: underline;
+}
+
+.under:hover
+{
+    text-decoration: underline;
